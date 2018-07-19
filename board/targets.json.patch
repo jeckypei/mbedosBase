@@ -1,0 +1,10 @@
+1246a1247,1255
+>     "WL1_F407VG": {
+>         "inherits": ["Target"],
+>         "core": "Cortex-M4F",
+>         "extra_labels": ["STM", "STM32F4", "STM32F407", "STM32F407xG", "STM32F407VG"],
+>         "supported_toolchains": ["ARM", "uARM", "GCC_ARM"],
+>         "macros": ["TRANSACTION_QUEUE_SIZE_SPI=2", "USB_STM_HAL"],
+>         "device_has": ["ANALOGIN", "ANALOGOUT", "ERROR_RED", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SLEEP", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES"],
+>         "device_name": "STM32F407VG"
+>     },
